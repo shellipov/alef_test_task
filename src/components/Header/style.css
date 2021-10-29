@@ -29,3 +29,15 @@ header {
 .header_link:hover {
   color: #111111cc;
 }
+
+@media screen and (max-width: 470px) {
+  .header_logo {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .header_link  {
+    margin: 0 12px 0 0;
+  }
+}

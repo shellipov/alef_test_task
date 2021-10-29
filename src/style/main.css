@@ -4,6 +4,7 @@
   height: calc(100vh - 76px - 76px);
   width: 616px;
   margin: 0 auto;
+  overflow: scroll;
 }
 
 h2{
@@ -13,4 +14,12 @@ h2{
   line-height: 24px;
   letter-spacing: 0px;
   padding: 30px 0 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 0 42px;
+    width: auto
+  }
 }

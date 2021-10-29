@@ -9,16 +9,24 @@
   margin-top: 18px;
 }
 
-.children_form {
-  display: grid;
-  grid-template-columns: 260px 260px auto;
-  grid-gap: 18px;
-  align-items: center;
-}
+
 .add_data_block {
   margin-top: 25px;
 }
 
 .sross_img {
   margin: 0 8px 0 4px;
+}
+
+@media screen and (max-width: 529px) {
+  .add_data_block {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .add_children_button_name  {
+    display: none;
+  }
 }
