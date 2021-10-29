@@ -1,0 +1,24 @@
+.form_person_data {
+  display: flex;
+  flex-direction: column;
+}
+.add_children_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.children_form {
+  display: grid;
+  grid-template-columns: 260px 260px auto;
+  grid-gap: 18px;
+  align-items: center;
+}
+.add_data_block {
+  margin-top: 25px;
+}
+
+.sross_img {
+  margin: 0 8px 0 4px;
+}

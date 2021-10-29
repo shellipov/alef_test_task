@@ -1,0 +1,41 @@
+.ui_button {
+  border: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  background: white;
+  color: #01a7fd;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  height: 44px;
+}
+
+.ui_button:hover {
+  color: #df0000;
+}
+
+.border {
+  border: 2px solid #01a7fd;
+  border-radius: 100px;
+  padding:  10px 20px;
+} 
+.border:hover {
+  color: #01a7fd;
+  background-color: rgb(236, 251, 253);
+}
+
+.blue{
+  padding:  10px 20px;
+  background: #01a7fd;
+  color: white;
+  border-radius: 100px;
+}
+
+.blue:hover {
+  color: white;
+  background: #df0000;
+}
