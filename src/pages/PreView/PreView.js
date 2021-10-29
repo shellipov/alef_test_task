@@ -1,4 +1,5 @@
 import React from "react";
+import { ageEnding } from "../../utils";
 import "./style.css";
 
 const PreView = () => {
@@ -14,7 +15,11 @@ const PreView = () => {
       <div className="preview_person_data">
         <h2>Персональные данные</h2>
         <div className="person_data_block">
-          <span className="person_data">{`${userData.name}, ${userData.age} лет`}</span>
+          <span className="person_data">
+            {`${userData.name !== "" ? userData.name : ""}  
+          ${userData.name !== "" && userData.age !== "" ? "," : ""} 
+          ${userData.age !== "" ? userData.age + ageEnding(userData.age) : ""}`}
+          </span>
         </div>
       </div>
 
@@ -24,7 +29,10 @@ const PreView = () => {
           {children.length ? (
             children.map((child) => (
               <div key={child.id} className="child_card">
-                <span className="child_data">{`${child.name}, ${child.age} лет`}</span>
+                <span className="child_data">{
+                `${child.name}, ${child.age + ageEnding(child.age)} `
+                }
+                </span>
               </div>
             ))
           ) : (
