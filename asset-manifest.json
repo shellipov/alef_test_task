@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alef_test_task/static/css/main.c0534ee3.chunk.css",
+    "main.js": "/alef_test_task/static/js/main.8bd3d494.chunk.js",
+    "main.js.map": "/alef_test_task/static/js/main.8bd3d494.chunk.js.map",
+    "runtime-main.js": "/alef_test_task/static/js/runtime-main.6e922292.js",
+    "runtime-main.js.map": "/alef_test_task/static/js/runtime-main.6e922292.js.map",
+    "static/js/2.588b9a4f.chunk.js": "/alef_test_task/static/js/2.588b9a4f.chunk.js",
+    "static/js/2.588b9a4f.chunk.js.map": "/alef_test_task/static/js/2.588b9a4f.chunk.js.map",
+    "index.html": "/alef_test_task/index.html",
+    "static/css/main.c0534ee3.chunk.css.map": "/alef_test_task/static/css/main.c0534ee3.chunk.css.map",
+    "static/js/2.588b9a4f.chunk.js.LICENSE.txt": "/alef_test_task/static/js/2.588b9a4f.chunk.js.LICENSE.txt",
+    "static/media/cross.0f812a6b.svg": "/alef_test_task/static/media/cross.0f812a6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e922292.js",
+    "static/js/2.588b9a4f.chunk.js",
+    "static/css/main.c0534ee3.chunk.css",
+    "static/js/main.8bd3d494.chunk.js"
+  ]
+}
